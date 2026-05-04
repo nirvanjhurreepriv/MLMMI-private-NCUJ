@@ -1,6 +1,6 @@
-# e.g. 
-pandas
-scikit-learn
-joblib
-ipykernel
-matplotlib
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+python-dateutil>=2.8.2
+openml>=0.14.0
