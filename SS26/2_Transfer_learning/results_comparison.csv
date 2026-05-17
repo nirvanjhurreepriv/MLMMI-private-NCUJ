@@ -1,0 +1,7 @@
+run_id,init,frozen_blocks,test_accuracy,train_time_s,inference_time_ms,trainable_params,total_params,optimizations,parent_run
+scratch_base,scratch,none,0.569,4732.8,1742.84,"11,181,642","11,181,642",none,
+ft_full,pretrained,none,0.766,4558.1,1655.82,"11,181,642","11,181,642",none,
+ft_full_amp,pretrained,none,0.829,4548.6,1608.02,"11,181,642","11,181,642",amp,ft_full
+ft_early_frozen,pretrained,conv1+bn1+layer1,0.817,3848.5,1646.10,"11,024,138","11,181,642",none,
+ft_most_frozen,pretrained,conv1+bn1+layer1+layer2+layer3,0.850,2201.2,1647.91,"8,398,858","11,181,642",none,
+ft_linear_probe,pretrained,conv1+bn1+layer1+layer2+layer3+layer4,0.788,1747.7,1681.10,"5,130","11,181,642",none,

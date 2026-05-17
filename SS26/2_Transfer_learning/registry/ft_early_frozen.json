@@ -1,0 +1,24 @@
+{
+  "run_id": "ft_early_frozen",
+  "init": "pretrained",
+  "frozen_layers": [
+    "conv1",
+    "bn1",
+    "layer1"
+  ],
+  "epochs": 5,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 64,
+  "image_size": 224,
+  "optimizations": [],
+  "accuracy": 0.8165,
+  "train_time_s": 3848.53,
+  "inference_time_ms": 1646.1,
+  "trainable_params": 11024138,
+  "total_params": 11181642,
+  "device": "cpu",
+  "parent_run_id": null,
+  "model_path": "models/ft_early_frozen.pt",
+  "created_at": "2026-05-17T19:00:59.076995Z"
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "scratch_base",
+  "init": "scratch",
+  "frozen_layers": [],
+  "epochs": 5,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 64,
+  "image_size": 224,
+  "optimizations": [],
+  "accuracy": 0.5685,
+  "train_time_s": 4732.77,
+  "inference_time_ms": 1742.84,
+  "trainable_params": 11181642,
+  "total_params": 11181642,
+  "device": "cpu",
+  "parent_run_id": null,
+  "model_path": "models/scratch_base.pt",
+  "created_at": "2026-05-17T16:36:43.288866Z"
+}

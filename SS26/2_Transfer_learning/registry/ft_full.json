@@ -1,0 +1,20 @@
+{
+  "run_id": "ft_full",
+  "init": "pretrained",
+  "frozen_layers": [],
+  "epochs": 5,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 64,
+  "image_size": 224,
+  "optimizations": [],
+  "accuracy": 0.766,
+  "train_time_s": 4558.13,
+  "inference_time_ms": 1655.82,
+  "trainable_params": 11181642,
+  "total_params": 11181642,
+  "device": "cpu",
+  "parent_run_id": null,
+  "model_path": "models/ft_full.pt",
+  "created_at": "2026-05-17T17:54:56.194866Z"
+}

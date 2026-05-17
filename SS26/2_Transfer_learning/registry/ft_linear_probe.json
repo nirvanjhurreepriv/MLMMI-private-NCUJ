@@ -1,0 +1,27 @@
+{
+  "run_id": "ft_linear_probe",
+  "init": "pretrained",
+  "frozen_layers": [
+    "conv1",
+    "bn1",
+    "layer1",
+    "layer2",
+    "layer3",
+    "layer4"
+  ],
+  "epochs": 5,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 64,
+  "image_size": 224,
+  "optimizations": [],
+  "accuracy": 0.7885,
+  "train_time_s": 1747.65,
+  "inference_time_ms": 1681.1,
+  "trainable_params": 5130,
+  "total_params": 11181642,
+  "device": "cpu",
+  "parent_run_id": null,
+  "model_path": "models/ft_linear_probe.pt",
+  "created_at": "2026-05-17T20:10:37.135606Z"
+}

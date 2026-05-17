@@ -1,0 +1,26 @@
+{
+  "run_id": "ft_most_frozen",
+  "init": "pretrained",
+  "frozen_layers": [
+    "conv1",
+    "bn1",
+    "layer1",
+    "layer2",
+    "layer3"
+  ],
+  "epochs": 5,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 64,
+  "image_size": 224,
+  "optimizations": [],
+  "accuracy": 0.8495,
+  "train_time_s": 2201.16,
+  "inference_time_ms": 1647.91,
+  "trainable_params": 8398858,
+  "total_params": 11181642,
+  "device": "cpu",
+  "parent_run_id": null,
+  "model_path": "models/ft_most_frozen.pt",
+  "created_at": "2026-05-17T19:39:34.403517Z"
+}

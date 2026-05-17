@@ -1,0 +1,22 @@
+{
+  "run_id": "ft_full_amp",
+  "init": "pretrained",
+  "frozen_layers": [],
+  "epochs": 5,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 64,
+  "image_size": 224,
+  "optimizations": [
+    "amp"
+  ],
+  "accuracy": 0.8285,
+  "train_time_s": 4548.6,
+  "inference_time_ms": 1608.02,
+  "trainable_params": 11181642,
+  "total_params": 11181642,
+  "device": "cpu",
+  "parent_run_id": "ft_full",
+  "model_path": "models/ft_full_amp.pt",
+  "created_at": "2026-05-17T21:28:18.962103Z"
+}
