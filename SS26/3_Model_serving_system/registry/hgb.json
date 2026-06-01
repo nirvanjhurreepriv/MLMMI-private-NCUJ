@@ -1,0 +1,8 @@
+{
+  "model_id": "hgb",
+  "algorithm": "hgb",
+  "accuracy": 0.7048,
+  "model_path": "models/hgb.pkl",
+  "embedding_dim": 384,
+  "num_classes": 20
+}

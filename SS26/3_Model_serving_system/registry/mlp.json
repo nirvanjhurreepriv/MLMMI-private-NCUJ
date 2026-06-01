@@ -1,0 +1,8 @@
+{
+  "model_id": "mlp",
+  "algorithm": "mlp",
+  "accuracy": 0.7233,
+  "model_path": "models/mlp.pkl",
+  "embedding_dim": 384,
+  "num_classes": 20
+}

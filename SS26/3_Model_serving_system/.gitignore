@@ -1,0 +1,22 @@
+# Large artifacts - DO NOT COMMIT
+#models/*.pkl
+#models/*.pt
+#data/raw/
+#*.log
+#__pycache__/
+#*.pyc
+
+# Large model files - DO NOT COMMIT
+models/*.pkl
+models/*.pt
+
+# Raw data (auto-downloadable)
+data/raw/
+
+# Logs and cache
+*.log
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

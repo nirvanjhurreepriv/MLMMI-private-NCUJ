@@ -1,0 +1,8 @@
+{
+  "model_id": "logreg",
+  "algorithm": "logreg",
+  "accuracy": 0.7228,
+  "model_path": "models/logreg.pkl",
+  "embedding_dim": 384,
+  "num_classes": 20
+}

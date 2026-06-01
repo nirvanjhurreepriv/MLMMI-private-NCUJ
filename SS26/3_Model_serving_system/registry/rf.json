@@ -1,0 +1,8 @@
+{
+  "model_id": "rf",
+  "algorithm": "rf",
+  "accuracy": 0.6668,
+  "model_path": "models/rf.pkl",
+  "embedding_dim": 384,
+  "num_classes": 20
+}
